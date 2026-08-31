@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte universal herdada por todo o site */
+    margin: 0; /* Remove margens padrão do navegador */
+    padding: 0;
+}
+
+header {
+    background-color: #abcabc; /* cor de fundo */
+    color: #413005; /* cor da fonte */
+    text-align: center; /* centraliza o texto horizontalmente */
+    max-width: 80px; /* define a largura máxima que o conteúdo pode ter */
+    margin: 0 auto; /* centraliza o item inteiro na tela */
+    padding: 16px; /* espaçamento interno entre a borda e o conteúdo */
+}
+
+h1 {
+    color: #474a65;
+}
+
+main {
+    background-color: #ee27cc;
+    color: #414005;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+article {
+    width: 100%;
+    margin-bottom: 20px; /* separa o artigo de baixo, criando espaço */
+}
+
+img {
+    width: 150px; /* define a largura fixa da imagem */
+    height: 150px; /* define a altura fixa da imagem */
+    border: 2px solid #17c47f; /* adiciona uma borda sólida de 2px na cor ... */
+    display: block; /* transforma a imagem em um bloco para ocupar espaço vertical e quebra de linha */
+    margin: 0 auto;       /* Centraliza o bloco inteiro na tela */
+padding: 20px;        /* Cria um espaçamento interno para o fundo aparecer bem */
+font-size: 14px;      /* Deixa o texto do rodapé um pouco menor e discreto */
+}
